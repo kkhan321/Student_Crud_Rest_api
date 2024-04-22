@@ -1,9 +1,25 @@
-<h1>Spring Boot Rest-Api - Student Crud operation</h1>
-<h3>Overview:</h3>
-<p>Through Spring Boot, this project focuses on implementing a comprehensive CRUD API,
-  facilitating Create, Read, Update, and Delete operations for efficient data manipulation. </p>
-  <h3>Technologies Used:</h3>
-<p><b>-MySQL: </b>Manage user data efficiently with a relational database.</p>
-<p><b>-Spring Boot rest controller: </b>Facilitates rapid development and easy configuration of the backend.</p>
+<h1>Student Rest API</h1>
+
+<h2>Introduction: </h2>
+<p>This project is a simple CRUD (Create, Read, Update, Delete) REST API built using Spring Boot. It provides endpoints to manage student records in a database.</p>
+
+<h2>Features: </h2>
+<p><b>CRUD Operations: </b>Perform CRUD operations on student records.</p>
+<p><b>RESTFul API: </b>Follows REST principles for API design.</p>
+<P><b>Docker Support: </b>Can be deployed as a Docker container.</P>
+
+<h2>Technologies Used: </h2>
+<h5>Spring Boot</h5>
+<h5>Spring Data JPA</h5>
+<h5>MySQL</h5>
+<h5>Docker</h5>
+<h5>Maven</h5>
+
+<h2>API's: </h2>
+<p><b>POST /students/saveStudent :</b> Create new student</p>
+<p><b>GET /students/studentlist :</b> Get All Students</p>
+<p><b>GET /students/edit/{id} :</b> Get student by id</p>
+<p><b>PUT /students/edit/{id} :</b> Update student by id</p>
+<p><b>DELETE /students/delete/{id} :</b> Delete student by id</p>
 
 
